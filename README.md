@@ -51,26 +51,8 @@ Return value of `extract()` :
 
 ```python
 [
-{'Post': 'Text text text text text....',
- 'Link' : 'https://link.com',
- 'Image' : 'https://image.com',
- 'Comments': {
-        'name1' : {
-            'text' : 'Text text...',
-            'link' : 'https://link.com',
-            'image': 'https://image.com'
-         }
-        'name2' : {
-            ...
-            }
-         ...
-         },
- 'Reaction' : { # Reaction only contains the top3 reactions
-        'LIKE' : int(number_of_likes),
-        'HAHA' : int(number_of_haha),
-        'WOW'  : int(number_of_wow)
-         }}
-  ...
+{
+ 'Comments':}
 ]
 ```
 
